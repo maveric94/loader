@@ -1,0 +1,9 @@
+log_user 0
+spawn grub
+expect "grub> "
+send "root (hd1,0)\r"
+expect "grub> "
+send "setup (hd1)\r"
+expect "grub> "
+send "quit\r"
+exit 0

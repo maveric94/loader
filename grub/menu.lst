@@ -1,0 +1,6 @@
+timeout   3
+default   0
+
+title  Hello_World_OS
+root   (hd0,0)
+kernel /kernel.bin
